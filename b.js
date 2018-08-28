@@ -133,7 +133,7 @@ if(message.content === "מה השעה") {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    message.channel.send(h-1 + ":" + m + ":" + s);
+    message.channel.send(h+3 + ":" + m + ":" + s);
 }
 function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
