@@ -72,4 +72,4 @@ bot.on("message", message => {
             }})
         })
 const token = process.env.TOKEN;
-bot.login("NDU0NzMwMzMxMTYyMTQ4ODY0.DmXaZw.XouC5W9IdRsjIJiSOkXlKUjB6YI")
+bot.login("NDU0NzMwMzMxMTYyMTQ4ODY0.DmaCJg.4Ec_6Z9pWDXyg3O1JMeubOIzZbs")
